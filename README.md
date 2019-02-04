@@ -1,2 +1,2 @@
-# fietsvakanties
-Privé website over de fietsvakanties die ik heb gedaan
+# Fietsvakanties
+Privéwebsite over de fietsvakanties die ik heb gedaan tussen 2000 en 2005.

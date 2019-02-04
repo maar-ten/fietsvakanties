@@ -1,0 +1,438 @@
+*, body {
+    margin: 0;
+    padding: 0;
+}
+
+body, table, td, th, input, textarea, select {
+    font: normal 100% Arial, Helvetica, sans-serif;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    border: none;
+}
+
+body {
+    background: #317;
+}
+
+.page {
+    display: block;
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    min-width: 320px;
+}
+
+.layout {
+    display: block;
+    margin-bottom: 4em;
+}
+
+.top {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.middle {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+}
+
+.footer {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    height: 4em;
+    width: 100%;
+    background: #008FE0;
+}
+
+.bottomMenuLayout {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 355px;
+}
+
+.bottomMenuItem {
+    float: left;
+    width: 71px;
+    height: 52px;
+    color: #318;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.67em;
+    text-decoration: none;
+}
+
+.menuImgHome {
+    background: url('../images/home.png') no-repeat bottom center;
+}
+
+.menuImgFoto {
+    background: url('../images/foto.png') no-repeat bottom center;
+}
+
+.menuImgDagboek {
+    background: url('../images/dagboek.png') no-repeat bottom center;
+}
+
+.menuImgRoute {
+    background: url('../images/route.png') no-repeat bottom center;
+}
+
+.menuImgTipFoto {
+    background: url('../images/tip.png') no-repeat bottom center;
+}
+
+.tripSummary {
+    position: relative;
+    height: 75px;
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.tripContent {
+    position: relative;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+.photoWidth {
+    max-width: 721px;
+}
+
+.tripTitle {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.tripTitleHeader {
+    font-weight: bold;
+    color: #008FE0;
+    letter-spacing: 3px;
+    padding-left: 10px;
+    padding-right: 107px;
+}
+
+.tripContentBody {
+    top: 75px;
+    color: #008FE0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    display: table;
+}
+
+.tripDiaryStats {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.tripContentWithMessages {
+    max-width: 800px;
+}
+
+.tripSummaryImg2001 {
+    background: url('../images/2001.png') no-repeat top right;
+}
+
+.tripSummaryImg2002 {
+    background: url('../images/2002.png') no-repeat top right;
+}
+
+.tripSummaryImg2004 {
+    background: url('../images/2004.png') no-repeat top right;
+}
+
+.tripSummaryImg2005 {
+    background: url('../images/2005.png') no-repeat top right;
+}
+
+.menu {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+.menuItem {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    float: left;
+    width: 110px;
+    height: 110px;
+    color: #008FE0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.67em;
+    text-decoration: none;
+}
+
+.titleBox {
+    background-color: #008FE0;
+    color: #317;
+    padding: 20px 30px 20px 30px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1em;
+    max-width: 328px;
+    text-align: center;
+    clear: both;
+    margin: 25px auto;
+    border-radius: 15px;
+    width: 75%;
+}
+
+.titleBoxMargin {
+    margin-bottom: 50px;
+}
+
+.menuImg2001 {
+    background: url('../images/2001.png') no-repeat bottom center;
+}
+
+.menuImg2002 {
+    background: url('../images/2002.png') no-repeat bottom center;
+}
+
+.menuImg2004 {
+    background: url('../images/2004.png') no-repeat bottom center;
+}
+
+.menuImg2005 {
+    background: url('../images/2005.png') no-repeat bottom center;
+}
+
+.tripRouteSource {
+    float: right;
+    color: #008FE0;
+    text-align: right;
+    font-weight: bold;
+    font-size: 0.67em;
+    text-decoration: none;
+}
+
+.tripRouteSource a:hover {
+    text-decoration: underline;
+}
+
+.imageBox {
+    height: 96px;
+    max-width: 96px;
+    margin: 2px;
+    overflow: hidden;
+    float: left;
+}
+
+.imageBox:hover{
+    margin: 0 4px 4px 0;
+    box-shadow: 0px 0px 25px #000;
+}
+
+.imageBox img {
+    min-height: 100%;
+}
+
+.tripContentBody li a {
+    color: #008FE0;
+    text-decoration: none;
+}
+
+.listItemsColumn {
+    padding-left: 25px;
+    margin-right: 25px;
+}
+
+.tripContentBody ul li {
+    margin-bottom: 10px;
+}
+
+.tripContentBody ol li a {
+    text-decoration: underline;
+}
+
+.tripContentBody p {
+    margin-bottom: 10px;
+}
+
+.satMap img {
+    max-width: 250px;
+    vertical-align: bottom;
+    margin-left: 10px;
+}
+
+.messageBox {
+    margin-top: 29px;
+    float: left;
+    max-width: 223px;
+    margin-right: 5px;
+    border: solid 5px #008FE0;
+}
+
+.messageTitle {
+    background-color: #008FE0;
+    color: #318;
+    font-weight: bold;
+    font-size: 0.81em;
+    text-align: center;
+}
+
+.messages {
+    font-size: 0.62em;
+    color: #008FE0;
+    height: 275px;
+    overflow-y: auto;
+}
+
+.messageBox p {
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-bottom: dashed 1px #008FE0;
+}
+
+#header {
+    position: relative;
+    height: 94px;
+    max-width: 800px;
+    overflow: hidden;
+}
+
+#headerPhotos {
+    display: none;
+}
+
+.headerTextFont {
+    font-family: verdana, helvetica, sans-serif;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.headerTextFrame3 {
+    margin-top: 30px;
+}
+
+.headerTextFrame5 {
+    color: #008FE0;
+    margin-top: 35px;
+    font-size: 1.17em;
+    letter-spacing: 0;
+    font-style: italic;
+}
+
+.headerTextFontSmall {
+    font-size: 0.81em;
+}
+
+#headerGlobe {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 73px;
+    height: 94px;
+    background: url("globe.gif") no-repeat right center;
+}
+
+@media screen and (min-width: 480px) {
+    .tripSummary {
+        margin-top: 25px;
+        padding-right: 107px;
+    }
+
+    .tripTitleHeader {
+        padding-right: 0;
+    }
+
+    .tripContentBody {
+        position: static;
+        border-top: 1px solid #008FE0;
+        border-left: 1px solid #008FE0;
+    }
+
+    #header {
+        height: 188px;
+    }
+
+    #headerPhotos {
+        display: block;
+        width: 398px;
+        height: 94px;
+        margin-left: auto;
+        margin-right: auto;
+        background: url("header.gif") no-repeat left center;
+    }
+
+    #headerGlobe {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu {
+        width: auto;
+        max-width: 640px;
+    }
+
+    .tripSummary {
+        margin-top: 150px;
+    }
+
+    #header {
+        height: 94px;
+    }
+
+    #headerPhotos {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 398px;
+        height: 94px;
+        background: url("header.gif") no-repeat left center;
+    }
+
+    #headerText {
+        position: absolute;
+        left: 407px;
+        top: 0;
+        width: 310px;
+        height: 94px;
+    }
+
+    #headerGlobe {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 73px;
+        height: 94px;
+        background: url("globe.gif") no-repeat right center;
+    }
+
+    .titleBoxMargin {
+        margin-top: 150px;
+    }
+}
