@@ -180,7 +180,7 @@ body {
     margin-bottom: 25px;
     float: left;
     width: 110px;
-    height: 110px;
+    height: 95px;
     color: #008FE0;
     text-align: center;
     font-weight: bold;
@@ -201,10 +201,6 @@ body {
     margin: 25px auto;
     border-radius: 15px;
     width: 75%;
-}
-
-.titleBoxMargin {
-    margin-bottom: 50px;
 }
 
 .menuImg2001 {
@@ -246,7 +242,7 @@ body {
 
 .imageBox:hover{
     margin: 0 4px 4px 0;
-    box-shadow: 0px 0px 25px #000;
+    box-shadow: 0 0 25px #000;
 }
 
 .imageBox img {
@@ -313,10 +309,8 @@ body {
 }
 
 #header {
-    position: relative;
-    height: 94px;
+    display: flex;
     max-width: 800px;
-    overflow: hidden;
 }
 
 #headerPhotos {
@@ -324,22 +318,18 @@ body {
 }
 
 .headerTextFont {
-    font-family: verdana, helvetica, sans-serif;
+    flex: auto;
+    align-self: center;
+    font-family: Verdana, Helvetica, sans-serif;
     letter-spacing: 4px;
     text-align: center;
     font-weight: bold;
     color: #fff;
     font-size: 1em;
-    margin-top: 20px;
-}
-
-.headerTextFrame3 {
-    margin-top: 30px;
 }
 
 .headerTextFrame5 {
     color: #008FE0;
-    margin-top: 35px;
     font-size: 1.17em;
     letter-spacing: 0;
     font-style: italic;
@@ -350,11 +340,8 @@ body {
 }
 
 #headerGlobe {
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 73px;
+    flex-basis: min-content;
+    min-width: 73px;
     height: 94px;
     background: url("globe.gif") no-repeat right center;
 }
@@ -376,7 +363,9 @@ body {
     }
 
     #header {
-        height: 188px;
+        height: 140px;
+        flex-direction: column;
+        align-items: center;
     }
 
     #headerPhotos {
@@ -386,6 +375,11 @@ body {
         margin-left: auto;
         margin-right: auto;
         background: url("header.gif") no-repeat left center;
+    }
+
+    #headerText {
+        flex: initial;
+        margin: auto;
     }
 
     #headerGlobe {
@@ -404,31 +398,20 @@ body {
     }
 
     #header {
-        height: 94px;
+        height: unset;
+        flex-direction: row;
+        align-items: center;
     }
 
     #headerPhotos {
-        position: absolute;
-        left: 0;
-        top: 0;
         width: 398px;
         height: 94px;
+        margin: unset;
         background: url("header.gif") no-repeat left center;
-    }
-
-    #headerText {
-        position: absolute;
-        left: 407px;
-        top: 0;
-        width: 310px;
-        height: 94px;
     }
 
     #headerGlobe {
         display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
         width: 73px;
         height: 94px;
         background: url("globe.gif") no-repeat right center;
