@@ -315,6 +315,9 @@ body {
 
 #headerPhotos {
     display: none;
+    width: 135px;
+    height: 94px;
+    background: url("header.gif") no-repeat left center;
 }
 
 .headerTextFont {
@@ -362,28 +365,8 @@ body {
         border-left: 1px solid #008FE0;
     }
 
-    #header {
-        height: 140px;
-        flex-direction: column;
-        align-items: center;
-    }
-
     #headerPhotos {
         display: block;
-        width: 398px;
-        height: 94px;
-        margin-left: auto;
-        margin-right: auto;
-        background: url("header.gif") no-repeat left center;
-    }
-
-    #headerText {
-        flex: initial;
-        margin: auto;
-    }
-
-    #headerGlobe {
-        display: none;
     }
 }
 
@@ -397,24 +380,9 @@ body {
         margin-top: 150px;
     }
 
-    #header {
-        height: unset;
-        flex-direction: row;
-        align-items: center;
-    }
-
     #headerPhotos {
         width: 398px;
-        height: 94px;
-        margin: unset;
         background: url("header.gif") no-repeat left center;
-    }
-
-    #headerGlobe {
-        display: block;
-        width: 73px;
-        height: 94px;
-        background: url("globe.gif") no-repeat right center;
     }
 
     .titleBoxMargin {
