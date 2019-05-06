@@ -226,12 +226,17 @@ body {
     text-decoration: underline;
 }
 
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .imageBox {
     height: 96px;
     max-width: 96px;
     margin: 2px;
     overflow: hidden;
-    float: left;
 }
 
 .imageBox:hover{
