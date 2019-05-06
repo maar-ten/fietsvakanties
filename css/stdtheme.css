@@ -21,10 +21,8 @@ body {
 }
 
 .page {
-    display: block;
-    position: absolute;
-    min-height: 100%;
-    width: 100%;
+    /*min-height: 100%;*/
+    /*width: 100%;*/
     min-width: 320px;
 }
 
@@ -47,7 +45,7 @@ body {
 }
 
 .footer {
-    position: absolute;
+    position: fixed;
     display: block;
     bottom: 0;
     height: 4em;
@@ -95,8 +93,6 @@ body {
 }
 
 .tripSummary {
-    position: relative;
-    height: 75px;
     max-width: 300px;
     margin-right: auto;
     margin-left: auto;
@@ -104,7 +100,6 @@ body {
 }
 
 .tripContent {
-    position: relative;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -360,7 +355,6 @@ body {
     }
 
     .tripContentBody {
-        position: static;
         border-top: 1px solid #008FE0;
         border-left: 1px solid #008FE0;
     }
