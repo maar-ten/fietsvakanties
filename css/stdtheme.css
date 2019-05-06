@@ -358,6 +358,10 @@ body {
         padding-right: 0;
     }
 
+    .tripTitle {
+        height: unset;
+    }
+
     .tripContentBody {
         border-top: 1px solid #008FE0;
         border-left: 1px solid #008FE0;
@@ -376,6 +380,10 @@ body {
 
     .tripSummary {
         margin-top: 150px;
+    }
+
+    .tripTitle {
+        height: unset;
     }
 
     #headerPhotos {
