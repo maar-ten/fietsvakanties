@@ -239,7 +239,7 @@ body {
     overflow: hidden;
 }
 
-.imageBox:hover{
+.imageBox:hover {
     margin: 0 4px 4px 0;
     box-shadow: 0 0 25px #000;
 }
@@ -270,10 +270,16 @@ body {
     margin-bottom: 10px;
 }
 
+.satMap {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .satMap img {
     max-width: 250px;
     vertical-align: bottom;
-    margin-left: 10px;
 }
 
 .messageBox {
@@ -369,6 +375,12 @@ body {
 
     #headerPhotos {
         display: block;
+    }
+
+    .satMap {
+        float: right;
+        width: unset;
+        margin-left: 10px
     }
 }
 
