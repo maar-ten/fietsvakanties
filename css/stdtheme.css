@@ -237,7 +237,9 @@ body {
 }
 
 .imageBox img {
-    min-height: 100%;
+    height: 96px;
+    width: 96px;
+    object-fit: cover;
 }
 
 .tripContentBody li a {
